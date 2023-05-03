@@ -1,0 +1,323 @@
+2023-03-21 04:53:14.813 CET [20206] LOG:  démarrage de PostgreSQL 13.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-16), 64-bit
+2023-03-21 04:53:14.815 CET [20206] LOG:  en écoute sur IPv6, adresse « ::1 », port 5432
+2023-03-21 04:53:14.815 CET [20206] LOG:  en écoute sur IPv4, adresse « 127.0.0.1 », port 5432
+2023-03-21 04:53:14.819 CET [20206] LOG:  écoute sur la socket Unix « /var/run/postgresql/.s.PGSQL.5432 »
+2023-03-21 04:53:14.827 CET [20206] LOG:  écoute sur la socket Unix « /tmp/.s.PGSQL.5432 »
+2023-03-21 04:53:14.834 CET [20208] LOG:  le système de bases de données a été arrêté à 2023-03-21 04:52:50 CET
+2023-03-21 04:53:14.845 CET [20206] LOG:  le système de bases de données est prêt pour accepter les connexions
+2023-03-21 04:56:02.784 CET [20206] LOG:  a reçu une demande d'arrêt rapide
+2023-03-21 04:56:02.790 CET [20206] LOG:  annulation des transactions actives
+2023-03-21 04:56:02.793 CET [20206] LOG:  processus en tâche de fond « logical replication launcher » (PID 20214) a quitté avec le code de sortie 1
+2023-03-21 04:56:02.796 CET [20209] LOG:  arrêt en cours
+2023-03-21 04:56:02.828 CET [20206] LOG:  le système de base de données est arrêté
+2023-03-21 04:56:02.917 CET [20307] LOG:  démarrage de PostgreSQL 13.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-16), 64-bit
+2023-03-21 04:56:02.918 CET [20307] LOG:  en écoute sur IPv4, adresse « 0.0.0.0 », port 5432
+2023-03-21 04:56:02.918 CET [20307] LOG:  en écoute sur IPv6, adresse « :: », port 5432
+2023-03-21 04:56:02.922 CET [20307] LOG:  écoute sur la socket Unix « /var/run/postgresql/.s.PGSQL.5432 »
+2023-03-21 04:56:02.929 CET [20307] LOG:  écoute sur la socket Unix « /tmp/.s.PGSQL.5432 »
+2023-03-21 04:56:02.936 CET [20309] LOG:  le système de bases de données a été arrêté à 2023-03-21 04:56:02 CET
+2023-03-21 04:56:02.946 CET [20307] LOG:  le système de bases de données est prêt pour accepter les connexions
+2023-03-21 05:02:59.683 CET [20307] LOG:  a reçu une demande d'arrêt rapide
+2023-03-21 05:02:59.688 CET [20307] LOG:  annulation des transactions actives
+2023-03-21 05:02:59.692 CET [20307] LOG:  processus en tâche de fond « logical replication launcher » (PID 20315) a quitté avec le code de sortie 1
+2023-03-21 05:02:59.693 CET [20310] LOG:  arrêt en cours
+2023-03-21 05:02:59.718 CET [20307] LOG:  le système de base de données est arrêté
+2023-03-21 05:02:59.830 CET [20819] LOG:  démarrage de PostgreSQL 13.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-16), 64-bit
+2023-03-21 05:02:59.831 CET [20819] LOG:  en écoute sur IPv4, adresse « 0.0.0.0 », port 5432
+2023-03-21 05:02:59.831 CET [20819] LOG:  en écoute sur IPv6, adresse « :: », port 5432
+2023-03-21 05:02:59.835 CET [20819] LOG:  écoute sur la socket Unix « /var/run/postgresql/.s.PGSQL.5432 »
+2023-03-21 05:02:59.843 CET [20819] LOG:  écoute sur la socket Unix « /tmp/.s.PGSQL.5432 »
+2023-03-21 05:02:59.850 CET [20821] LOG:  le système de bases de données a été arrêté à 2023-03-21 05:02:59 CET
+2023-03-21 05:02:59.862 CET [20819] LOG:  le système de bases de données est prêt pour accepter les connexions
+2023-03-21 18:08:07.904 CET [29481] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:08:07.904 CET [29481] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:08:13.020 CET [29505] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:08:13.020 CET [29505] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:08:55.109 CET [29519] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « ahmed »
+2023-03-21 18:08:55.109 CET [29519] DÉTAIL:  Le rôle « ahmed » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:09:01.529 CET [29551] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « ahmed »
+2023-03-21 18:09:01.529 CET [29551] DÉTAIL:  Le rôle « ahmed » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:09:21.931 CET [29563] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « ahmed »
+2023-03-21 18:09:21.931 CET [29563] DÉTAIL:  Le rôle « ahmed » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:09:29.407 CET [29586] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « ahmed »
+2023-03-21 18:09:29.407 CET [29586] DÉTAIL:  Le rôle « ahmed » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:10:55.761 CET [29612] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « -v »
+2023-03-21 18:10:55.761 CET [29612] DÉTAIL:  Le rôle « -v » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:10:59.595 CET [29641] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « -v »
+2023-03-21 18:10:59.595 CET [29641] DÉTAIL:  Le rôle « -v » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:11:08.003 CET [29648] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:11:08.003 CET [29648] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:11:11.808 CET [29654] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:11:11.808 CET [29654] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:11:51.532 CET [29689] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:11:51.532 CET [29689] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:11:58.809 CET [29721] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:11:58.809 CET [29721] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:12:22.582 CET [29733] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:12:22.582 CET [29733] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:12:26.895 CET [29757] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:12:26.895 CET [29757] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:13:56.648 CET [29779] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:13:56.648 CET [29779] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:14:01.816 CET [29808] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 18:14:01.816 CET [29808] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:14:33.566 CET [29821] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « ahmed »
+2023-03-21 18:14:33.566 CET [29821] DÉTAIL:  Le rôle « ahmed » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:14:40.119 CET [29844] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « ahmed »
+2023-03-21 18:14:40.119 CET [29844] DÉTAIL:  Le rôle « ahmed » n'existe pas.
+	La connexion correspond à la ligne 88 du pg_hba.conf : « host    all             all             ::1/128                 scram-sha-256 »
+2023-03-21 18:16:19.861 CET [29447] ERREUR:  le rôle « ahmed » n'existe pas
+2023-03-21 18:16:19.861 CET [29447] INSTRUCTION :  ALTER USER ahmed  WITH PASSWORD 'Ahmed216!';
+2023-03-21 18:19:10.219 CET [29961] ERREUR:  le schéma « public » existe déjà
+2023-03-21 18:19:10.219 CET [29961] INSTRUCTION :  CREATE SCHEMA public;
+	
+	
+	
+2023-03-21 18:19:10.244 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.244 CET [29961] INSTRUCTION :  ALTER FUNCTION public.peuple_stock(annee_debut integer, annee_fin integer) OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.247 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.247 CET [29961] INSTRUCTION :  ALTER FUNCTION public.peuple_vin() OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.250 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.250 CET [29961] INSTRUCTION :  ALTER FUNCTION public.trous_stock() OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.252 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.252 CET [29961] INSTRUCTION :  ALTER FUNCTION public.trous_vin() OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.267 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.267 CET [29961] INSTRUCTION :  ALTER TABLE public.appellation OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.271 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.271 CET [29961] INSTRUCTION :  ALTER TABLE public.appellation_id_seq OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.282 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.282 CET [29961] INSTRUCTION :  ALTER TABLE public.contenant OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.286 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.286 CET [29961] INSTRUCTION :  ALTER TABLE public.contenant_id_seq OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.297 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.297 CET [29961] INSTRUCTION :  ALTER TABLE public.recoltant OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.300 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.300 CET [29961] INSTRUCTION :  ALTER TABLE public.recoltant_id_seq OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.311 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.311 CET [29961] INSTRUCTION :  ALTER TABLE public.region OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.314 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.314 CET [29961] INSTRUCTION :  ALTER TABLE public.region_id_seq OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.319 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.319 CET [29961] INSTRUCTION :  ALTER TABLE public.stock OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.327 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.327 CET [29961] INSTRUCTION :  ALTER TABLE public.type_vin OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.330 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.330 CET [29961] INSTRUCTION :  ALTER TABLE public.type_vin_id_seq OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.335 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.335 CET [29961] INSTRUCTION :  ALTER TABLE public.vin OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.338 CET [29961] ERREUR:  le rôle « caviste » n'existe pas
+2023-03-21 18:19:10.338 CET [29961] INSTRUCTION :  ALTER TABLE public.vin_id_seq OWNER TO caviste;
+	
+	
+2023-03-21 18:19:10.866 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:19:12.478 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:19:13.057 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:20:13.115 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:21:13.133 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:22:13.229 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:23:13.280 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:24:13.319 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:25:13.360 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:26:13.448 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:27:13.525 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:28:13.584 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:29:13.681 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:30:13.742 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:31:13.754 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:32:13.812 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:33:13.861 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:34:13.920 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:35:13.979 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:36:14.032 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:37:14.097 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:38:14.143 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:39:14.255 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:40:14.275 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:41:14.286 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:42:14.341 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:43:14.413 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:44:14.473 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:45:14.476 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:46:14.485 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:47:14.544 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:48:14.624 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:49:14.643 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:50:14.652 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:51:14.678 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:52:14.680 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:53:14.752 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:54:14.810 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:55:14.868 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:56:14.910 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:57:14.961 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:58:14.978 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 18:59:15.062 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:00:15.124 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:01:15.181 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:02:15.244 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:03:15.248 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:04:15.303 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:05:15.335 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:06:15.395 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:07:15.469 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:08:15.497 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:09:15.558 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:10:15.641 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:11:15.703 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:12:15.761 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:13:15.818 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:14:15.858 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:15:15.915 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:16:15.944 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:17:16.011 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:18:16.070 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:19:16.129 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:20:16.264 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:21:16.307 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:22:16.365 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:23:16.427 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:24:16.431 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:25:16.493 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:26:16.554 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:27:16.572 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:28:16.605 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:29:16.651 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:30:16.708 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:31:16.714 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:32:16.718 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:33:16.719 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:34:16.768 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:35:16.871 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:36:16.910 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:37:16.970 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:38:17.014 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:39:17.051 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:40:17.115 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:41:17.161 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:42:17.174 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:43:17.188 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:44:17.203 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:45:17.268 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:46:17.309 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:47:17.332 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:48:17.351 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:49:17.385 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:50:17.433 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:51:17.443 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:52:17.473 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:53:17.518 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:54:17.570 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:55:17.629 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:56:17.697 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:57:17.741 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:58:17.785 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 19:59:17.846 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:00:17.906 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:01:17.990 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:02:18.044 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:03:18.119 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:04:18.123 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:05:18.194 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:06:18.241 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:07:18.277 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:08:18.287 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:09:18.339 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:10:18.376 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:11:18.454 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:12:18.503 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:13:18.537 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:14:18.588 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:15:18.623 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:16:18.684 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:17:18.741 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:18:13.090 CET [31418] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 20:18:13.090 CET [31418] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 93 du pg_hba.conf : « host    replication     all             ::1/128                 scram-sha-256 »
+2023-03-21 20:18:18.799 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:18:21.750 CET [31420] FATAL:  authentification par mot de passe échouée pour l'utilisateur  « postgres »
+2023-03-21 20:18:21.750 CET [31420] DÉTAIL:  L'utilisateur « postgres » n'a pas de mot de passe affecté.
+	La connexion correspond à la ligne 93 du pg_hba.conf : « host    replication     all             ::1/128                 scram-sha-256 »
+2023-03-21 20:18:41.808 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:18:42.195 CET [31424] LOG:  n'a pas pu envoyer les données au client : Connexion ré-initialisée par le correspondant
+2023-03-21 20:18:42.195 CET [31424] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT  TABLESPACE_MAP  MANIFEST 'yes' 
+2023-03-21 20:18:42.195 CET [31424] ERREUR:  la sauvegarde de base n'a pas pu envoyer les données, annulation de la sauvegarde
+2023-03-21 20:18:42.195 CET [31424] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT  TABLESPACE_MAP  MANIFEST 'yes' 
+2023-03-21 20:18:42.196 CET [31424] LOG:  n'a pas pu envoyer les données au client : Relais brisé (pipe)
+2023-03-21 20:18:42.196 CET [31424] STATEMENT:  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT  TABLESPACE_MAP  MANIFEST 'yes' 
+2023-03-21 20:18:42.196 CET [31424] FATAL:  connexion au client perdue
+2023-03-21 20:19:31.516 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:19:31.715 CET [31440] LOG:  n'a pas pu envoyer les données au client : Connexion ré-initialisée par le correspondant
+2023-03-21 20:19:31.715 CET [31440] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:19:31.715 CET [31440] ERREUR:  la sauvegarde de base n'a pas pu envoyer les données, annulation de la sauvegarde
+2023-03-21 20:19:31.715 CET [31440] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:19:31.715 CET [31440] LOG:  n'a pas pu envoyer les données au client : Relais brisé (pipe)
+2023-03-21 20:19:31.715 CET [31440] STATEMENT:  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:19:31.715 CET [31440] FATAL:  connexion au client perdue
+2023-03-21 20:20:21.208 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:20:21.422 CET [31462] LOG:  n'a pas pu envoyer les données au client : Connexion ré-initialisée par le correspondant
+2023-03-21 20:20:21.422 CET [31462] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:20:21.423 CET [31462] ERREUR:  la sauvegarde de base n'a pas pu envoyer les données, annulation de la sauvegarde
+2023-03-21 20:20:21.423 CET [31462] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:20:21.423 CET [31462] LOG:  n'a pas pu envoyer les données au client : Relais brisé (pipe)
+2023-03-21 20:20:21.423 CET [31462] STATEMENT:  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:20:21.423 CET [31462] FATAL:  connexion au client perdue
+2023-03-21 20:21:21.268 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:22:21.324 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:22:57.598 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
+2023-03-21 20:22:57.789 CET [31500] LOG:  n'a pas pu envoyer les données au client : Connexion ré-initialisée par le correspondant
+2023-03-21 20:22:57.789 CET [31500] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:22:57.789 CET [31500] ERREUR:  la sauvegarde de base n'a pas pu envoyer les données, annulation de la sauvegarde
+2023-03-21 20:22:57.789 CET [31500] INSTRUCTION :  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:22:57.789 CET [31500] LOG:  n'a pas pu envoyer les données au client : Relais brisé (pipe)
+2023-03-21 20:22:57.789 CET [31500] STATEMENT:  BASE_BACKUP LABEL 'pg_basebackup base backup' PROGRESS   NOWAIT    MANIFEST 'yes' 
+2023-03-21 20:22:57.789 CET [31500] FATAL:  connexion au client perdue
+2023-03-21 20:23:52.222 CET [20826] ATTENTION:  archive_mode activé, cependant archive_command n'est pas configuré
